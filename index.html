@@ -233,7 +233,15 @@ function welcome(){
  const h=new Date().getHours();$("greeting").textContent=h<12?"Good morning.":h<18?"Good afternoon.":"Good evening.";
  addMessage("Hello. I’m JARVIS. Your personal dashboard is ready. Try “add task Study 30 min” or tap a quick command.");
 }
-render();welcome();
+render();welcome();render();welcome();
+</script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js");
+}
+</script>
+</body>
+</html>
 </script>
 </body>
 </html>
