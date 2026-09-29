@@ -1,16 +1,23 @@
 {
-  "name": "JARVIS Personal AI",
+  "name": "JARVIS",
   "short_name": "JARVIS",
-  "start_url": "./",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#06101d",
-  "theme_color": "#07111f",
-  "description": "My Personal JARVIS Dashboard",
+  "background_color": "#000814",
+  "theme_color": "#000814",
   "icons": [
     {
-      "src": "jarvis-icon.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "file_00000000d91081fa8ef284ca2f677024.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "file_00000000d91081fa8ef284ca2f677024.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
